@@ -45,7 +45,7 @@ app.on('ready', function () {
 
   windows[0].loadUrl('http://www.google.com');
 
-  windows[1] = new BrowserWindow({width: 800, height : 600});
+  windows[1] = new BrowserWindow({width: 800, height: 600});
   windows[1].loadUrl('file://' + html + '/index.html');
   windows[1].openDevTools();
 
@@ -58,7 +58,7 @@ app.on('ready', function () {
   for (var i = 0; i < windows.length; i++) {
     closeListener(windows, i);
   }
-  
+
   while (true) {
     console.log(Stream.last);
   }
