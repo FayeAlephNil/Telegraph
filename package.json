@@ -1,0 +1,28 @@
+{
+  "name": "IRC",
+  "version": "0.0.1",
+  "description": "A small IRC client built on node-irc and Electron",
+  "main": "app/js/main.js",
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "todo"
+  },
+  "keywords": [
+    "Electron",
+    "IRC"
+  ],
+  "author": "Strikingwolf",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^0.4.1",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2",
+    "grunt-contrib-uglify": "^0.9.1",
+    "grunt-exec": "^0.4.6",
+    "irc": "^0.3.12",
+    "minimist": "^1.1.1"
+  }
+}
